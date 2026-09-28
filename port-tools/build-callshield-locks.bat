@@ -1,0 +1,12 @@
+@echo off
+set HTTPS_PROXY=
+set HTTP_PROXY=
+set https_proxy=
+set http_proxy=
+set JAVA_HOME=E:\android-toolchain\jdk17
+set ANDROID_HOME=E:\android-toolchain\sdk
+set ANDROID_SDK_ROOT=E:\android-toolchain\sdk
+C:
+cd C:\Users\Aows\Downloads\callshield-port\CallShield-release
+call gradlew.bat :app:dependencies --write-locks --console=plain
+echo BUILD-RC=%ERRORLEVEL%

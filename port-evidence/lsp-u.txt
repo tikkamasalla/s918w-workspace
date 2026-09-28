@@ -1,0 +1,338 @@
+#################### Lui0;
+========== C (Landroid/os/Parcel; Landroid/os/Parcelable$Creator;)Ljava/lang/Object;
+    invoke-virtual | v1, Landroid/os/Parcel;->readInt()I
+    move-result | v0
+    if-eqz | v0, +007h
+    invoke-interface | v2, v1, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    move-result-object | v1
+    return-object | v1
+    const/4 | v1, 0
+    return-object | v1
+========== H (Landroid/os/Parcel; Landroid/os/Parcelable;)V
+    const/4 | v0, 0
+    if-eqz | v3, +00ah
+    const/4 | v1, 1
+    invoke-virtual | v2, v1, Landroid/os/Parcel;->writeInt(I)V
+    invoke-interface | v3, v2, v0, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel; I)V
+    return-void | 
+    invoke-virtual | v2, v0, Landroid/os/Parcel;->writeInt(I)V
+    return-void | 
+#################### Lm3;
+========== <init> (I)V
+    iput | v1, v0, Lm3;->a I
+    invoke-direct | v0, Ljava/lang/Object;-><init>()V
+    return-void | 
+========== createFromParcel (Landroid/os/Parcel;)Ljava/lang/Object;
+    iget | v6, v6, Lm3;->a I
+    const-string | v0, "Parcelable too small"
+    const/4 | v1, 4
+    const | v2, 2147483647
+    const-string | v3, "Overflow in the size of parcelable"
+    const/4 | v4, 0
+    packed-switch | v6, +0000205h
+    new-instance | v6, Lfr3;
+    invoke-direct | v6, Ljava/lang/Object;-><init>()V
+    iput | v4, v6, Lfr3;->f I
+    invoke-virtual | v7, Landroid/os/Parcel;->dataPosition()I
+    move-result | v4
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v5
+    if-lt | v5, v1, +041h
+    invoke-virtual | v7, Landroid/os/Parcel;->dataPosition()I
+    move-result | v0
+    sub-int/2addr | v0, v4
+    if-lt | v0, v5, +010h
+    sub-int/2addr | v2, v5
+    if-gt | v4, v2, +007h
+    add-int/2addr | v4, v5
+    invoke-virtual | v7, v4, Landroid/os/Parcel;->setDataPosition(I)V
+    goto | +28h
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v0
+    iput | v0, v6, Lfr3;->f I
+    invoke-virtual | v7, Landroid/os/Parcel;->dataPosition()I
+    move-result | v0
+    sub-int/2addr | v0, v4
+    if-lt | v0, v5, +00ch
+    sub-int/2addr | v2, v5
+    if-gt | v4, v2, +003h
+    goto | -1bh
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    invoke-virtual | v7, Landroid/os/Parcel;->readString()Ljava/lang/String;
+    move-result-object | v0
+    iput-object | v0, v6, Lfr3;->g Ljava/lang/String;
+    sub-int/2addr | v2, v5
+    if-gt | v4, v2, +004h
+    goto | -2bh
+    return-object | v6
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    move-exception | v6
+    goto | +7h
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v0, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    sub-int/2addr | v2, v5
+    if-le | v4, v2, +008h
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    add-int/2addr | v4, v5
+    invoke-virtual | v7, v4, Landroid/os/Parcel;->setDataPosition(I)V
+    throw | v6
+    const-wide | v0, -1092433521671173
+    invoke-static | v0, v1, Ley3;->v(J)Ljava/lang/String;
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    sget-object | v6, Llr2;->INSTANCE Llr2;
+    return-object | v6
+    const-wide | v0, -1094636839894021
+    invoke-static | v0, v1, Ley3;->v(J)Ljava/lang/String;
+    new-instance | v6, Lkr2;
+    invoke-virtual | v7, Landroid/os/Parcel;->readString()Ljava/lang/String;
+    move-result-object | v7
+    invoke-direct | v6, v7, Lkr2;-><init>(Ljava/lang/String;)V
+    return-object | v6
+    const-wide | v0, -1091918125595653
+    invoke-static | v0, v1, Ley3;->v(J)Ljava/lang/String;
+    new-instance | v6, Lhr2;
+    invoke-virtual | v7, Landroid/os/Parcel;->readString()Ljava/lang/String;
+    move-result-object | v0
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v1
+    invoke-virtual | v7, Landroid/os/Parcel;->readString()Ljava/lang/String;
+    move-result-object | v2
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v7
+    if-eqz | v7, +003h
+    const/4 | v4, 1
+    invoke-direct | v6, v0, v1, v2, v4, Lhr2;-><init>(Ljava/lang/String; I Ljava/lang/String; Z)V
+    return-object | v6
+    const-wide | v0, -1094237407935493
+    invoke-static | v0, v1, Ley3;->v(J)Ljava/lang/String;
+    new-instance | v6, Ler2;
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v7
+    invoke-direct | v6, v7, Ler2;-><init>(I)V
+    return-object | v6
+    const-wide | v0, -1091888060824581
+    invoke-static | v0, v1, Ley3;->v(J)Ljava/lang/String;
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    sget-object | v6, Lbr2;->INSTANCE Lbr2;
+    return-object | v6
+    const-wide | v0, -1095839430736901
+    invoke-static | v0, v1, Ley3;->v(J)Ljava/lang/String;
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    sget-object | v6, Lar2;->INSTANCE Lar2;
+    return-object | v6
+    const-wide | v0, -1096298992237573
+    invoke-static | v0, v1, Ley3;->v(J)Ljava/lang/String;
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    sget-object | v6, Lzq2;->INSTANCE Lzq2;
+    return-object | v6
+    new-instance | v6, Ln92;
+    invoke-virtual | v7, Landroid/os/Parcel;->readLong()J
+    move-result-wide | v0
+    invoke-direct | v6, v0, v1, Ln92;-><init>(J)V
+    return-object | v6
+    new-instance | v6, Lm92;
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v7
+    invoke-direct | v6, v7, Lm92;-><init>(I)V
+    return-object | v6
+    new-instance | v6, Ll92;
+    invoke-virtual | v7, Landroid/os/Parcel;->readFloat()F
+    move-result | v7
+    invoke-direct | v6, v7, Ll92;-><init>(F)V
+    return-object | v6
+    new-instance | v6, Lk92;
+    invoke-direct | v6, v7, Lk92;-><init>(Landroid/os/Parcel;)V
+    return-object | v6
+    new-instance | v6, Landroidx/versionedparcelable/ParcelImpl;
+    invoke-direct | v6, v7, Landroidx/versionedparcelable/ParcelImpl;-><init>(Landroid/os/Parcel;)V
+    return-object | v6
+    new-instance | v6, Lorg/lsposed/lspd/models/ModuleInfo;
+    invoke-direct | v6, v7, Lorg/lsposed/lspd/models/ModuleInfo;-><init>(Landroid/os/Parcel;)V
+    return-object | v6
+    new-instance | v6, Lj11;
+    invoke-direct | v6, v7, Lj11;-><init>(Landroid/os/Parcel;)V
+    return-object | v6
+    new-instance | v6, Lof0;
+    invoke-direct | v6, Ljava/lang/Object;-><init>()V
+    iput | v4, v6, Lof0;->f I
+    invoke-virtual | v7, Landroid/os/Parcel;->dataPosition()I
+    move-result | v4
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v5
+    if-lt | v5, v1, +041h
+    invoke-virtual | v7, Landroid/os/Parcel;->dataPosition()I
+    move-result | v0
+    sub-int/2addr | v0, v4
+    if-lt | v0, v5, +010h
+    sub-int/2addr | v2, v5
+    if-gt | v4, v2, +007h
+    add-int/2addr | v4, v5
+    invoke-virtual | v7, v4, Landroid/os/Parcel;->setDataPosition(I)V
+    goto | +28h
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v0
+    iput | v0, v6, Lof0;->f I
+    invoke-virtual | v7, Landroid/os/Parcel;->dataPosition()I
+    move-result | v0
+    sub-int/2addr | v0, v4
+    if-lt | v0, v5, +00ch
+    sub-int/2addr | v2, v5
+    if-gt | v4, v2, +003h
+    goto | -1bh
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    invoke-virtual | v7, Landroid/os/Parcel;->createStringArrayList()Ljava/util/ArrayList;
+    move-result-object | v0
+    iput-object | v0, v6, Lof0;->g Ljava/util/ArrayList;
+    sub-int/2addr | v2, v5
+    if-gt | v4, v2, +004h
+    goto | -2bh
+    return-object | v6
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    move-exception | v6
+    goto | +7h
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v0, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    sub-int/2addr | v2, v5
+    if-le | v4, v2, +008h
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    add-int/2addr | v4, v5
+    invoke-virtual | v7, v4, Landroid/os/Parcel;->setDataPosition(I)V
+    throw | v6
+    new-instance | v6, Lp40;
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v7
+    invoke-direct | v6, v7, Lp40;-><init>(I)V
+    return-object | v6
+    new-instance | v6, Lcg;
+    invoke-direct | v6, Lcg;-><init>()V
+    invoke-virtual | v7, Landroid/os/Parcel;->dataPosition()I
+    move-result | v4
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v5
+    if-lt | v5, v1, +041h
+    invoke-virtual | v7, Landroid/os/Parcel;->dataPosition()I
+    move-result | v0
+    sub-int/2addr | v0, v4
+    if-lt | v0, v5, +010h
+    sub-int/2addr | v2, v5
+    if-gt | v4, v2, +007h
+    add-int/2addr | v4, v5
+    invoke-virtual | v7, v4, Landroid/os/Parcel;->setDataPosition(I)V
+    goto | +28h
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    invoke-virtual | v7, Landroid/os/Parcel;->readString()Ljava/lang/String;
+    move-result-object | v0
+    iput-object | v0, v6, Lcg;->f Ljava/lang/String;
+    invoke-virtual | v7, Landroid/os/Parcel;->dataPosition()I
+    move-result | v0
+    sub-int/2addr | v0, v4
+    if-lt | v0, v5, +00ch
+    sub-int/2addr | v2, v5
+    if-gt | v4, v2, +003h
+    goto | -1bh
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v0
+    iput | v0, v6, Lcg;->g I
+    sub-int/2addr | v2, v5
+    if-gt | v4, v2, +004h
+    goto | -2bh
+    return-object | v6
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    move-exception | v6
+    goto | +7h
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v0, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    sub-int/2addr | v2, v5
+    if-le | v4, v2, +008h
+    new-instance | v6, Landroid/os/BadParcelableException;
+    invoke-direct | v6, v3, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    throw | v6
+    add-int/2addr | v4, v5
+    invoke-virtual | v7, v4, Landroid/os/Parcel;->setDataPosition(I)V
+    throw | v6
+    new-instance | v6, Ln3;
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v0
+    invoke-virtual | v7, Landroid/os/Parcel;->readInt()I
+    move-result | v1
+    if-nez | v1, +004h
+    const/4 | v7, 0
+    goto | +9h
+    sget-object | v1, Landroid/content/Intent;->CREATOR Landroid/os/Parcelable$Creator;
+    invoke-interface | v1, v7, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    move-result-object | v7
+    check-cast | v7, Landroid/content/Intent;
+    invoke-direct | v6, v0, v7, Ln3;-><init>(I Landroid/content/Intent;)V
+    return-object | v6
+    nop | 
+    packed-switch-payload | 0 1 2 3 4 5 6 7 8 9 a b c d e f 10 11
+========== newArray (I)[Ljava/lang/Object;
+    iget | v0, v0, Lm3;->a I
+    packed-switch | v0, +000003ch
+    new-array | v0, v1, [Lfr3;
+    return-object | v0
+    new-array | v0, v1, [Llr2;
+    return-object | v0
+    new-array | v0, v1, [Lkr2;
+    return-object | v0
+    new-array | v0, v1, [Lhr2;
+    return-object | v0
+    new-array | v0, v1, [Ler2;
+    return-object | v0
+    new-array | v0, v1, [Lbr2;
+    return-object | v0
+    new-array | v0, v1, [Lar2;
+    return-object | v0
+    new-array | v0, v1, [Lzq2;
+    return-object | v0
+    new-array | v0, v1, [Ln92;
+    return-object | v0
+    new-array | v0, v1, [Lm92;
+    return-object | v0
+    new-array | v0, v1, [Ll92;
+    return-object | v0
+    new-array | v0, v1, [Lk92;
+    return-object | v0
+    new-array | v0, v1, [Landroidx/versionedparcelable/ParcelImpl;
+    return-object | v0
+    new-array | v0, v1, [Lorg/lsposed/lspd/models/ModuleInfo;
+    return-object | v0
+    new-array | v0, v1, [Lj11;
+    return-object | v0
+    new-array | v0, v1, [Lof0;
+    return-object | v0
+    new-array | v0, v1, [Lp40;
+    return-object | v0
+    new-array | v0, v1, [Lcg;
+    return-object | v0
+    new-array | v0, v1, [Ln3;
+    return-object | v0
+    packed-switch-payload | 0 1 2 3 4 5 6 7 8 9 a b c d e f 10 11
